@@ -1,18 +1,20 @@
 #include<stdio.h>
 void biggest3()
-int main() {
-    int a, b, c;
+ {
+    int A, B, C;
 
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
+    printf("Enter three numbers A,B and C: ");
+    scanf("%d %d %d", &A, &B, &C);
 
-    if (a >= b && a >= c) {
-        printf("%d is the biggest number.\n", a);
-    } else if (b >= a && b >= c) {
-        printf("%d is the biggest number.\n", b);
-    } else {
-        printf("%d is the biggest number.\n", c);
-    }
+    if (A >= B && A >= C) 
+        printf("%d is the biggest number.\n", A);
+
+      else if (B >= A && B >= C) 
+        printf("%d is the biggest number.\n", B);
+
+     else 
+        printf("%d is the biggest number.\n", C);
+    
 
     // return 0;
 }
